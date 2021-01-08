@@ -9,7 +9,7 @@ export default class imageCompressor extends React.Component {
     super();
     this.state = {
       compressedLink:
-        "http://navparivartan.in/wp-content/uploads/2018/11/placeholder.png",
+        "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs2/178573284/original/cf9a701b8ac9bf1952283785a2f93596a908522e/create-mock-ups-for-any-design-you-want.jpg",
       originalImage: "",
       originalLink: "",
       clicked: false,
@@ -81,7 +81,7 @@ export default class imageCompressor extends React.Component {
               <Card.Img
                 className="ht"
                 variant="top"
-                src="http://navparivartan.in/wp-content/uploads/2018/11/placeholder.png"
+                src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs2/178573284/original/cf9a701b8ac9bf1952283785a2f93596a908522e/create-mock-ups-for-any-design-you-want.jpg"
               ></Card.Img>
             )}
             <div className="d-flex justify-content-center">
